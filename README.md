@@ -28,6 +28,7 @@ Servis, repository ve controller katmanlarının birbirleriyle nasıl iletişim 
 
 
 --Genel Mimari Açıklama--
+
 Model (Entity):	Musteriler sınıfı veritabanındaki ec_musteriler tablosunu temsil eder.
 Repository:	MusterilerRepository, Spring Data JPA sayesinde CRUD işlemlerini otomatik olarak sağlar.
 Service:	MusteriService, iş mantığını barındırır ve Controller ile Repository arasında köprü görevi görür.
